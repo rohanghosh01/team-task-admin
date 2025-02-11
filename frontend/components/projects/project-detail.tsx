@@ -110,7 +110,7 @@ export function ProjectDetail({
       {isAdmin && (
         <AddMemberDialog
           open={showAddMemberDialog}
-          onOpenChange={setShowAddMemberDialog}
+          onChange={setShowAddMemberDialog}
           // onAddMember={onAddMember}
         />
       )}
