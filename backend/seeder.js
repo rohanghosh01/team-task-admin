@@ -5,9 +5,9 @@ const connectDB = require("./config/db");
 const { encrypt } = require("./utils/cryptoUtil");
 
 const {
-  ADMIN_NAME = "Admin",
-  ADMIN_PASSWORD = "admin@123",
-  ADMIN_EMAIL = "admin@teamtask.com",
+  ADMIN_NAME,
+  ADMIN_PASSWORD,
+  ADMIN_EMAIL,
 } = process.env;
 const adminCredentials = {
   name: ADMIN_NAME,
